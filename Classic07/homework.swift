@@ -89,6 +89,9 @@ struct other1: View {
             Text("\(myData.name)歲")
             Text("\(myData.name1)歲")
             Text("\(myData.name2)歲")
+            Text("Hollow world")
+                .font(.title)
+                .bold()
             
         }
     }
